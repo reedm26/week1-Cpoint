@@ -1,0 +1,34 @@
+.bg {
+  background-color: #412d5e;
+}
+.video-pad {
+  padding-bottom: 30px;
+}
+.padtop {
+  padding-top: 120px;
+}
+.bg-gold {
+  background-color: #a39161;
+}
+.button {
+  width: 150px;
+  height: 40px;
+}
+.round-pic {
+  border-radius: 50%;
+}
+.row-break {
+  padding-bottom: 10px;
+}
+.bottom-pic {
+  justify-content: flex-end;
+  padding: 20px;
+}
+.bottom-text {
+  justify-content: center;
+  padding: 100px 40px 0 40px;
+}
+.logo-image {
+  padding-top: 20px;
+  justify-content: center;
+}
