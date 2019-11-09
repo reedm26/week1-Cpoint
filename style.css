@@ -1,11 +1,21 @@
+
+
 .bg-img {
-  background-image: url("https://wallpapercave.com/wp/wp2690091.jpg");
+  background-image:url("http://stickskillzunlimited.com/wp-content/uploads/2017/05/lacrosse-goal-background-1024x393.jpg");
   height: 462px;
+  width: 450px;
   background-repeat: no-repeat;
   background-size: cover;
+    }
+.video {
+  width: 380px;
+  height: 300px;
+  }
+.bg {
+  background-color: #592048;
 }
 .video-pad {
-  padding-bottom: 40vh;
+  padding-bottom: 40px;
 }
 .padtop {
   padding-top: 50px;
@@ -13,12 +23,22 @@
 .bg-gold {
   background-color: #a39161;
 }
+.card-pad p {
+  padding: 20px;
+  align-self: flex-start;
+  margin-bottom: 0;
+}
+.btn-push {
+  position: absoulute;
+  bottom: -2em;
+  }
 .button {
   width: 150px;
   height: 40px;
 }
 .round-pic {
   border-radius: 50%;
+  padding: 20px;
 }
 .row-break {
   padding-bottom: 10px;
@@ -26,15 +46,16 @@
 .bottom-pic {
   justify-content: flex-end;
   padding: 20px;
-  height: 300px;
-  width: 500px;
+  width: 600px;
 }
 .bottom-text {
   justify-content: center;
+  align-items: center;
   padding: 30px 40px 20px 40px;
 }
+
 .logo-image {
-  justify-content: center;
   height: 100px;
   width: 100px;
 }
+
