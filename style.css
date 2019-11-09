@@ -1,16 +1,14 @@
-
-
 .bg-img {
-  background-image:url("http://stickskillzunlimited.com/wp-content/uploads/2017/05/lacrosse-goal-background-1024x393.jpg");
+  background-image: url("http://stickskillzunlimited.com/wp-content/uploads/2017/05/lacrosse-goal-background-1024x393.jpg");
   height: 462px;
   width: 450px;
   background-repeat: no-repeat;
   background-size: cover;
-    }
+}
 .video {
   width: 380px;
   height: 300px;
-  }
+}
 .bg {
   background-color: #592048;
 }
@@ -24,14 +22,15 @@
   background-color: #a39161;
 }
 .card-pad p {
-  padding: 20px;
+  padding: 0px;
   align-self: flex-start;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .btn-push {
   position: absoulute;
   bottom: -2em;
-  }
+  align-content: flex-end;
+}
 .button {
   width: 150px;
   height: 40px;
@@ -58,4 +57,3 @@
   height: 100px;
   width: 100px;
 }
-
