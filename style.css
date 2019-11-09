@@ -23,13 +23,14 @@
 }
 .card-pad p {
   padding: 0px;
-  align-self: flex-start;
-  margin-bottom: 0px;
+  align-content: center;
+  margin-bottom: 10px;
 }
 .btn-push {
   position: absoulute;
   bottom: -2em;
-  align-content: flex-end;
+
+  padding: 0.25em;
 }
 .button {
   width: 150px;
