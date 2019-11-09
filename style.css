@@ -1,8 +1,11 @@
-.bg {
-  background-color: #412d5e;
+.bg-img {
+  background-image: url("https://wallpapercave.com/wp/wp2690091.jpg");
+  height: 462px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .video-pad {
-  padding-bottom: 30px;
+  padding-bottom: 40vh;
 }
 .padtop {
   padding-top: 50px;
