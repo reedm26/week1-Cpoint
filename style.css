@@ -9,39 +9,25 @@
   background-color: #592048;
 }
 .video-pad {
-  padding-bottom: 40px;
-  
-  max-height: 55vh;
-  max-width: 414px;
-
+  padding-bottom: 20px;
+  order: 0;
 }
 .padtop {
   padding-top: 50px;
 }
 .bg-gold {
   background-color: #a39161;
-  min-width: 500px;
+  min-width: 414px;
 }
 .card-pad {
-  padding: 0px;
-  align-content: center;
   margin-bottom: 10px;
-}
-.btn-push {
-  position: absoulute;
-  bottom: -2em;
-  padding: 0.25em;
+  padding-top: 10px;
 }
 .button {
   border: 2px solid black;
-  padding-bottom: 15px;
+  margin-bottom: 10px;
   border-color: #a39161;
-  
 }
-.button:hover {
-  color: var(#39152f);
-}
-
 .round-pic {
   border-radius: 50%;
   padding: 20px;
@@ -62,4 +48,9 @@
 .logo-image {
   height: 100px;
   width: 100px;
+}
+@media only screen and (max-width: 768px) {
+  div {
+    order: 1;
+  }
 }
