@@ -38,7 +38,9 @@ row {
 .sm-button {
   position: absolute;
   border-color: black;
-  background-color: #a39161;
+  background-color: #592044;
+  left: 37%;
+  border-radius: 10%;
 }
 .round-pic {
   border-radius: 50%;
