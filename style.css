@@ -5,6 +5,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+row {
+  position: relative;
+}
 .bg {
   background-color: #592048;
 }
@@ -19,14 +22,24 @@
   background-color: #a39161;
   min-width: 414px;
 }
-.card-pad {
-  margin-bottom: 10px;
-  padding-top: 10px;
-}
-.button {
+.top-button {
   border: 2px solid black;
   margin-bottom: 10px;
   border-color: #a39161;
+}
+.card-pad {
+  position: inherit;
+  margin-bottom: -3rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  width: 100%;
+}
+.sm-button {
+  position: absolute;
+  border-color: black;
+  background-color: #a39161;
+  margin-bottom: 20px;
 }
 .round-pic {
   border-radius: 50%;
@@ -39,11 +52,12 @@
   justify-content: flex-end;
   padding: 20px;
   width: 75%;
+  padding-top: 5rem;
 }
 .bottom-text {
   justify-content: center;
   align-items: center;
-  padding: 30px 40px 20px 40px;
+  padding: 4rem 40px 20px 40px;
 }
 .logo-image {
   height: 100px;
@@ -53,4 +67,7 @@
   div {
     order: 1;
   }
+}
+.shadow {
+  text-shadow: 1px 2px black;
 }
