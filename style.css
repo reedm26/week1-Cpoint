@@ -5,9 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-row {
-  position: relative;
-}
+
 .bg {
   background-color: #592048;
 }
@@ -37,8 +35,8 @@ row {
 }
 .sm-button {
   position: absolute;
-  border-color: black;
-  background-color: #592044;
+  border-color: #592044;
+  background-color: black;
   left: 37%;
   border-radius: 10%;
 }
@@ -48,6 +46,10 @@ row {
   margin-top: 3rem;
 }
 .row-break {
+  height: 10px;
+  background-color: #592048;
+  margin-top: 3rem;
+  padding: 5px;
 }
 .bottom-pic {
   justify-content: space-around;
@@ -57,8 +59,8 @@ row {
 }
 .bottom-text {
   justify-content: space-around;
-  padding-top: 20px;
-  margin-top: 2rem;
+  padding-top: 15px;
+  margin-top: 1rem;
 }
 .logo-image {
   height: 100px;
@@ -71,4 +73,35 @@ row {
 }
 .shadow {
   text-shadow: 1px 2px black;
+}
+.grad {
+  background-image: linear-gradient(
+    to bottom right,
+    black,
+    #3a132e,
+    #5e1849,
+    #592048,
+    #703960,
+    #a37194,
+    #d4b3cb,
+    #ebd3e4,
+    white
+  );
+}
+.grad2 {
+  background-image: linear-gradient(
+    to bottom,
+    black,
+    #3a132e,
+    #5e1849,
+    #592048,
+    #703960,
+    #a37194,
+    #d4b3cb,
+    #ebd3e4,
+    white
+  );
+}
+.linked-1 {
+  justify-content: flex-end;
 }
