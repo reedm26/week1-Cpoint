@@ -41,6 +41,9 @@
   left: 37%;
   border-radius: 10%;
 }
+.sm-button:hover {
+  background-color: #3a132e;
+}
 .round-pic {
   border-radius: 50%;
   padding: 15px;
